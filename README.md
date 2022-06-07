@@ -31,18 +31,25 @@ Exploring the dataset of Suspension Coil it was performed t-tests in order to sh
 On the tested performed we have found the following results:
 The p-Value of 0.06 that is higher that significance level of 0.05, what presume that we do not have enough evidence to support a rejected of the null hypothesis once the mean of all the lots is similar statistically speaking when considered the population mean amount of 1500 as suggested.
 
+<img src="https://github.com/abramscris/MechaCar_Statistical_Analysis/blob/master/Images/Coil1.png" width="700">
+
 When looking specific to Lot 3 even though the p-Value is 0.04 on this test, indicating reject the null hypothesis, still is the lot that brings questions and differ from others. An inside look into the process of this lot would help understand the discrepancies and improvements needed.
 
+<img src="https://github.com/abramscris/MechaCar_Statistical_Analysis/blob/master/Images/Lot3.png" width="700">
 
 ## Study Design: MechaCar vs Competition.
 A more detailed statistical study for MechaCar could be approached analyzing a more specific data with the Top 10 better performed cars from the last 2 year following the additional metrics:
-MPG (Miles per gallon)
-Safety Features (front airbags, electronic stability control, safety belts and the LATCH child safety seat system)
-Sell Pricing
+
+* MPG (Miles per gallon)
+* Safety Features (front airbags, electronic stability control, safety belts and the LATCH child safety seat system)
+* Selling Pricing
+
 ### Hypothesis: Null and Alternative
+
 As we based our hypothesis on safety measures most requested on buying a car, we can have the following methods of hypotheses:
-MechaCar include the top requirements of Safety 
-•	Null Hypothesis (Ho): If MechaCar do not have the safety requirements as the TOP10 confirm if the selling price will be lower.
-•	Alternative Hypothesis (Ha): If MechaCar have the same safety requirements confirm if the price is lower or above.
+
+* Null Hypothesis (Ho): If MechaCar do not have the safety requirements as the TOP10 confirm if the selling price will be lower.
+* Alternative Hypothesis (Ha): If MechaCar have the same safety requirements confirm if the price is lower or above.
+
 ### Statistical tests
 The use of a multiple linear regression would be great determinant of the factors that have the highest correlation/predictability with the list selling price related to safety features and MPG, between more data provided.
